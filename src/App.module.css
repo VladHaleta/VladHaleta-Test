@@ -1,0 +1,20 @@
+.App {
+    font-family: sans-serif;
+    display: flex;
+    transform: scale(1.1);
+  }
+  
+  .container {
+    display: grid;
+    border: 1px solid;
+  }
+  
+  .textContainer {
+    margin-left: 20px;
+  }
+  
+  h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  
