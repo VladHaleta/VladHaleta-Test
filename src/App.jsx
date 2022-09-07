@@ -22,7 +22,7 @@ export default function App() {
   ];
   const nameField = React.useRef(0);
   const [field, setField] = useState(5);
-  const [curentValue, SetCurentValue] = useState({
+  const [currentValue, SetCurrentValue] = useState({
     name: "Pick mode",
     field: 5
   });
@@ -36,12 +36,12 @@ export default function App() {
         <div>
           <Select
             state={state}
-            curentValue={curentValue}
-            SetCurentValue={SetCurentValue}
+            currentValue={currentValue}
+            SetCurrentValue={SetCurrentValue}
           />
           <Button
             onClick={() => {
-              setField(curentValue.field);
+              setField(currentValue.field);
               setHoverSquares([]);
               setDeleteBlueColor(true);
             }}
